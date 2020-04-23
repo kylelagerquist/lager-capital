@@ -1,0 +1,12 @@
+
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block body %}
+    <h1 class="title">{{ stock_data.symbol }}</h1>
+<h2>{{ stock_data.regularMarketPrice}} </h2>
+{% endblock %}
